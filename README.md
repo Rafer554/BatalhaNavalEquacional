@@ -1,5 +1,5 @@
 # BatalhaNavalEquacional
-# Batalha Naval Matemática - README
+
 
 ## Visão Geral
 
