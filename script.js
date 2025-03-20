@@ -183,7 +183,7 @@ function handleCellClick(e) {
         updateScore(150);
         document.getElementById('message').textContent = 'Acertou! +150 pontos';
         
-        // Revela todo o navio quando totalmente destruído
+                // Revela todo o navio quando totalmente destruído
         if(isShipDestroyed(hitShip)) {
             revealShip(hitShip);
         }
@@ -197,7 +197,7 @@ function handleCellClick(e) {
 }
 
 function revealShip(ship) {
-    // Mostra todas as células do navio
+      // Mostra todas as células do navio
     const shipCells = getShipCells(ship);
     shipCells.forEach(cell => {
         const element = document.querySelector(`[data-row="${cell.row}"][data-col="${cell.col}"]`);
