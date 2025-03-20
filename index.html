@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <title>Batalha Naval Profissional</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -12,10 +14,14 @@
             <div id="grid" class="grid"></div>
             <div id="info-panel">
                 <div id="equations"></div>
-                <div id="score">Pontuação: 1000</div>
             </div>
         </div>
-        <button onclick="initGame()">Novo Jogo</button>
+        <div class="controls-container">
+            <button onclick="initGame()">Novo Jogo</button>
+            <div id="score">Pontuação: 1000</div>
+        </div>
+    </div>
+     
     </div>
     <script src="script.js"></script>
 </body>
